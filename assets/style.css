@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+  /* HEADER SECTION  */
+header {
+    padding: 30px 45px;
+    text-decoration: none;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    background-image: url(https://jooinn.com/images/red-background-3.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+/* NAV BAR AND FOOTER LINKS */
+a:hover {
+    background: black;
+    color: #750606;
+    border-radius: 50px;
+}
+ul li{
+    display: inline;
+    padding-right: 10px;
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* MAIN BODY */
+.flexbox-container-1 {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 400px;
+    text-align: center;
+
+}
+.flexbox-item {
+    width: 200px;
+    margin: 10px;
+
+}
+.flexbox-1 {
+    width: 50%;
+}
+.flexbox-2  {
+    min-height: 100px;
+}
+.flexbox-container-2 {
+  text-align: center;
+    background-color: black;
+    color: rgb(129, 5, 5);
+}    
+.flexbox-container-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: rgb(129, 5, 5);
+}    
+#about-me{
+    color: rgb(129, 5, 5);
+    text-align: center;
+    padding:  10% 5% 5% ;
+    
+}
+.flexbox-3  {
+    background-color: rgb(129, 5, 5);
+    color: black;
+}
+
+.flexbox-4 img, .flexbox-5 img  {
+    width: 75%;
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+} 
+.flexbox-6  {
+    width: 100%;
+    height: 100%;
+}
+#main-content {
+    background-color: black;
+    color: rgb(129, 5, 5);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    text-align: center;
+    width: 50%;
+    height: auto;
+    align-items: center;
+}
+#main-content h2  {
+    padding: 80px;
+    display: inline-block;
+    flex:12
+}
+#main-content img {
+      width: 75%;
+      height: auto;
+      border-radius: 20px;
+    
+}
+/* FOOTER STYLING */
+footer {
+    padding: 30px 45px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    background-image: url(https://jooinn.com/images/red-background-3.png);
+    color: black;
+}
+footer h2 {
+    font-size: 25px;
+    margin: 0;
+}
+footer a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+  }

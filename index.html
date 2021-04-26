@@ -5,58 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leslie McManaman</title>
-    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
 </head>
 <body>
 <!-- header/nav bar -->
     <header>
-        <section id="navigation bar">
-        <div class="background-image">
-            background image
-        </div>
-        <div class="titlename">
+        <section id="navigation-bar">
             <h1>Leslie McManaman</h1>
-        </div>
-        <div class="nav-tags">    
-        <nav>
-            <ul>
+        </section>
+        <section id="navagation-tags">
+        <nav class="nav-tags">
+            <ul >
                 <li>
                   <a href="#main-content">About Me</a>
                 </li>
                 <li>
-                  <a href="#what-you-do">Projects</a>
+                  <a href="#projects">Projects</a>
                 </li>
+                <li>
+                    <a href="#contact-info">Contact Me</a>
+                </li>                
             </ul>
         </nav>
-        </div>
     </section>
     </header>
 <!-- main body of page -->
     <main>
-        <div class="sidebar">
-            sidebar image
+    <section class="flexbox-container-1">
+        <div id="main-content">
+            <img id="biopicture" src="./images/school photo.jpg" alt="Leslie McManaman" /> 
         </div>
-        <section id="main-content">
-        <div class="aboutme">
+        <div id="about-me">
             <h2>
                 About Me
             </h2>
-            <img id="biopicture" src="https://placehold.it/200x200" alt="Leslie McManaman" />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea velit nesciunt soluta ab harum obcaecati alias facilis in molestiae accusamus, enim esse tempore corporis ipsum, nostrum eaque. Tenetur, vero. Qui?</p>
+                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea velit nesciunt soluta ab harum obcaecati alias facilis in molestiae accusamus, enim esse tempore corporis ipsum, nostrum eaque. Tenetur, vero. Qui?</p>
         </div>
-        <div class="project">
-            <img src="./assets/images/trainer-1.jpg" alt="Sample Project Photo" />
-            <h3 class="trainer-name">Arron Stephens</h3>
-        </div>
-        <div class="project">
-            <img src="./assets/images/trainer-1.jpg" alt="Sample Project Photo" />
-            <h3 class="trainer-name">Arron Stephens</h3>
-        </div>
-        <div class="project">
-            <img src="./assets/images/trainer-1.jpg" alt="Sample Project Photo" />
-            <h3 class="trainer-name">Arron Stephens</h3>
-        </div>
-        </section>
+        
+    </section>
+    <section class="flexbox-container-2">    
+            <div class="flex-row">
+                <h2> 
+                    Projects
+                </h2>
+            </div>
+    </section>
+    <section class="flexbox-container-3">   
+        <article class="flexbox-4">  
+                <img src="./images/Run-Buddy.png" alt="Runny Buddy photo" />
+        </article>  
+        <article class="flexbox-5">    
+            <img src="./images/Horiseon.png" alt="Horiseon photo" />
+        </article>
+        <article class="flexbox-6">
+                <p >More projects coming soon!</p>
+        </article>
+    </section>
     </main>
 <!-- Start of footer/contact into -->
     <footer>
